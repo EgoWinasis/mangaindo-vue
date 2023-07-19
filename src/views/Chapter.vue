@@ -12,7 +12,7 @@
 
             <div v-if="data == null || isJsonEmpty(data)" class="max-w-3/4  h-screen md:w-3/4 flex justify-center">
 
-                <svg class="w-1/4 text-gray-200 dark:text-gray-600 animate-pulse" aria-hidden="true"
+                <svg class="w-1/4 text-gray-200  animate-pulse" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
                     <path
                         d="M14.066 0H7v5a2 2 0 0 1-2 2H0v11a1.97 1.97 0 0 0 1.934 2h12.132A1.97 1.97 0 0 0 16 18V2a1.97 1.97 0 0 0-1.934-2ZM10.5 6a1.5 1.5 0 1 1 0 2.999A1.5 1.5 0 0 1 10.5 6Zm2.221 10.515a1 1 0 0 1-.858.485h-8a1 1 0 0 1-.9-1.43L5.6 10.039a.978.978 0 0 1 .936-.57 1 1 0 0 1 .9.632l1.181 2.981.541-1a.945.945 0 0 1 .883-.522 1 1 0 0 1 .879.529l1.832 3.438a1 1 0 0 1-.031.988Z" />
@@ -26,7 +26,7 @@
             <div v-else class="max-w-3/4 md:w-3/4">
                 <div v-if="data.status == false" class="max-w-3/4  h-screen md:w-3/4 flex justify-center">
 
-                    <svg class="w-1/4 text-gray-200 dark:text-gray-600 animate-pulse" aria-hidden="true"
+                    <svg class="w-1/4 text-gray-200  animate-pulse" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
                         <path
                             d="M14.066 0H7v5a2 2 0 0 1-2 2H0v11a1.97 1.97 0 0 0 1.934 2h12.132A1.97 1.97 0 0 0 16 18V2a1.97 1.97 0 0 0-1.934-2ZM10.5 6a1.5 1.5 0 1 1 0 2.999A1.5 1.5 0 0 1 10.5 6Zm2.221 10.515a1 1 0 0 1-.858.485h-8a1 1 0 0 1-.9-1.43L5.6 10.039a.978.978 0 0 1 .936-.57 1 1 0 0 1 .9.632l1.181 2.981.541-1a.945.945 0 0 1 .883-.522 1 1 0 0 1 .879.529l1.832 3.438a1 1 0 0 1-.031.988Z" />
@@ -42,7 +42,7 @@
                     <div class="text-3xl font-bold  text-center bg-gray-100">
                         <div class="px-4 pt-4 bg-gray-400 w-20 h-20 rounded-br-full">
                             <a @click="$router.go(-1)" class="hover:cursor-pointer">
-                                <svg class="w-8 h-8 text-white dark:text-white transform scale-x-[-1]"
+                                <svg class="w-8 h-8 text-white  transform scale-x-[-1]"
                                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                     viewBox="0 0 19 17">
                                     <path

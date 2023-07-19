@@ -19,11 +19,7 @@
               'rounded-l-lg',
               'hover:bg-gray-100',
               'hover:text-gray-700',
-              'dark:bg-gray-800',
-              'dark:border-gray-700',
-              'dark:text-gray-400',
-              'dark:hover:bg-gray-700',
-              'dark:hover:text-white',
+              
               currentPage === 1 ? 'cursor-not-allowed opacity-50' : '',
             ]"
             @click="goToPage(currentPage - 1)"
@@ -62,11 +58,7 @@
               'border-gray-300',
               'hover:bg-gray-100',
               'hover:text-gray-700',
-              'dark:bg-gray-800',
-              'dark:border-gray-700',
-              'dark:text-gray-400',
-              'dark:hover:bg-gray-700',
-              'dark:hover:text-white',
+              
               currentPage === page ? 'bg-blue-600' : '',
             ]"
             @click="goToPage(page)"
@@ -91,11 +83,7 @@
               'rounded-r-lg',
               'hover:bg-gray-100',
               'hover:text-gray-700',
-              'dark:bg-gray-800',
-              'dark:border-gray-700',
-              'dark:text-gray-400',
-              'dark:hover:bg-gray-700',
-              'dark:hover:text-white',
+              
               currentPage === totalPages ? 'cursor-not-allowed opacity-50' : '',
             ]"
             @click="goToPage(currentPage + 1)"
